@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Ycf7db";
+  src: url("./Ycf7db.eot");
+  src: url("./Ycf7db.eot?#iefix") format("embedded-opentype"),
+       url("./Ycf7db.woff2") format("woff2"),
+       url("./Ycf7db.woff") format("woff"),
+       url("./Ycf7db.ttf") format("truetype"),
+       url("./Ycf7db.svg#Ycf7db") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Ycf7db";
+    src: url("./Ycf7db.svg#Ycf7db") format("svg");
+  }
+}
+
+[class^="dashicons-ycf7db-"]:before, [class*=" dashicons-ycf7db-"]:before,
+[class^="dashicons-ycf7db-"]:after, [class*=" dashicons-ycf7db-"]:after { 
+	font-family: Ycf7db !important;
+	font-size: 19px !important;
+}
+
+.dashicons-ycf7db-mail:before { content: "\f100" !important; }

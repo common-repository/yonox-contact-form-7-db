@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Ftypeicon";
+  src: url("./fonts/Ftypeicon.eot");
+  src: url("./fonts/Ftypeicon.eot?#iefix") format("embedded-opentype"),
+       url("./fonts/Ftypeicon.woff2") format("woff2"),
+       url("./fonts/Ftypeicon.woff") format("woff"),
+       url("./fonts/Ftypeicon.ttf") format("truetype"),
+       url("./fonts/Ftypeicon.svg#Ftypeicon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Ftypeicon";
+    src: url("./fonts/Ftypeicon.svg#Ftypeicon") format("svg");
+  }
+}
+
+[class^="ftypeicon-"]:before, [class*=" ftypeicon-"]:before,
+[class^="ftypeicon-"]:after, [class*=" ftypeicon-"]:after {   
+	font-family: Ftypeicon;
+	font-size: 20px;
+	font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.ftypeicon-pdf:before { content: "\f100"; }
+.ftypeicon-xlsx:before { content: "\f101"; }
+.ftypeicon-csv:before { content: "\f102"; }
+.ftypeicon-xls:before { content: "\f103"; }
+.ftypeicon-html:before { content: "\f104"; }
+.ftypeicon-zip:before { content: "\f105"; }
